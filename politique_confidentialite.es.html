@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Politique de confidentialité es </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <style>
+        body.dark-mode {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .mode-toggle-icon {
+            position: absolute;
+            top: 0px;
+            left: 290px;
+            /* Décalage pour donner de l'espace entre le logo et la barre de recherche */
+            cursor: pointer;
+        }
+
+        .search-bar-container {
+            position: absolute;
+            top: 10px;
+            right: 50px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f8f9fa;
+            padding: 10px;
+        }
+
+        footer a {
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><b> Oasis </b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Oasis Service.es.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Oasis blog.es.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Oasis contact.es.html">Contáctenos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Oasis connexion.es.html">Conexión</a>
+                    </li>
+
+                    <!-- Language Selector -->
+                    <li class="nav-item">
+                        <a href="politica_privacidad.fr.html" class="nav-link"><img
+                                src="https://hatscripts.github.io/circle-flags/flags/fr.svg" alt="Bandera francesa"
+                                width="16" height="16"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="politica_privacidad.en.html" class="nav-link"><img
+                                src="https://hatscripts.github.io/circle-flags/flags/us.svg"
+                                alt="Bandera de los Estados Unidos" width="16" height="16"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="politica_privacidad.al.html" class="nav-link"><img
+                                src="https://hatscripts.github.io/circle-flags/flags/de.svg" alt="Bandera alemana"
+                                width="16" height="16"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="politica_privacidad.es.html" class="nav-link"><img
+                                src="https://hatscripts.github.io/circle-flags/flags/es.svg" alt="Bandera española"
+                                width="16" height="16"></a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- Conteneur de la barre de recherche et du logo -->
+            <div class="search-bar-container">
+                <!-- Barre de recherche -->
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+                <!-- Logo du mode sombre -->
+                <div class="mode-toggle-icon" onclick="toggleDarkMode()">
+                    <img src="BpSombre.png" alt="Modo oscuro" title="Modo oscuro" width="36" height="36">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1> Oasis </h1>
+            <p> Una política de privacidad es una declaración que divulga todas o algunas de las formas en que un sitio
+                web recopila, utiliza, divulga y gestiona los datos de sus visitantes y clientes. Responde a una
+                obligación legal de proteger la privacidad de un visitante o cliente. El enlace a su política de
+                privacidad debe aparecer en todas las páginas de su sitio. </p>
+
+            <p> Aquí hay algunos ejemplos de contenido que puede incluir en su política de privacidad: </p>
+
+            <p> Qué información recopila </br>
+
+                Cómo recopila la información </br>
+
+                Por qué recopila la información </br>
+
+                Con quién comparte la información </br>
+
+                Dónde se almacenan las informaciones </br>
+
+                Cuánto tiempo conserva la información </br>
+
+                Cómo protege la información </br>
+
+                Cambios o actualizaciones de la política de privacidad. </p>
+
+            <p> Haga clic aquí para obtener información más detallada sobre cómo crear su política de privacidad. </p>
+
+        </div>
+    </div>
+
+    <footer>
+    <a href="politique_cookies.es.html">Política de cookies</a>
+    <a href="mentions_legales.es.html">Aviso legal</a>
+    <a href="politique_confidentialite.es.html">Política de privacidad</a>
+        <p> Copyright &copy; 2024 Joryce. Todos los derechos reservados. </p>
+    </footer>
+
+    <script>
+        function toggleDarkMode() {
+            var body = document.body;
+            body.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+
+</html>

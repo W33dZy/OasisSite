@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+
+
+  <head>
+    <title> Nous contacter en </title>
+      <meta charset="utf-8">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        body.dark-mode {
+            background-color: #333;
+            color: #fff;
+        }
+        .mode-toggle-icon {
+            position: absolute;
+            top: 0px;
+            left: 290px; /* Décalage pour donner de l'espace entre le logo et la barre de recherche */
+            cursor: pointer;
+        }
+        .search-bar-container {
+            position: absolute;
+            top: 10px;
+            right: 50px;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f8f9fa;
+            padding: 10px;
+        }
+        footer a {
+            margin-right: 20px;
+        }
+    </style>
+  </head>
+  <body>
+   <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.en.html"><b> Oasis </b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Oasis Service.en.html"> Services </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Oasis blog.en.html"> Blog </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Oasis contact.en.html"> Contact us </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Oasis connexion.en.html"> Connection </a>
+            </li>
+
+
+
+            <!-- Language Selector -->
+            <li class="nav-item">
+              <a href="Oasis contact.fr.html" class="nav-link"><img src="https://hatscripts.github.io/circle-flags/flags/fr.svg" alt="French Flag" width="16" height="16"></a>
+            </li>
+            <li class="nav-item">
+              <a href="Oasis contact.en.html" class="nav-link"><img src="https://hatscripts.github.io/circle-flags/flags/us.svg" alt="United States Flag" width="16" height="16"></a>
+            </li>
+            <li class="nav-item">
+              <a href="Oasis contact.al.html" class="nav-link"><img src="https://hatscripts.github.io/circle-flags/flags/de.svg" alt="German Flag" width="16" height="16"></a>
+            </li>
+            <li class="nav-item">
+              <a href="Oasis contact.es.html" class="nav-link"><img src="https://hatscripts.github.io/circle-flags/flags/es.svg" alt="Spanish Flag" width="16" height="16"></a>
+            </li>
+
+
+
+          </ul>
+        </div>
+        <!-- Conteneur de la barre de recherche et du logo -->
+        <div class="search-bar-container">
+            <!-- Barre de recherche -->
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> Search </button>
+            </form>
+            <!-- Logo du mode sombre -->
+            <div class="mode-toggle-icon" onclick="toggleDarkMode()">
+                <img src="BpSombre.png" alt="Mode sombre" title="Mode sombre" width="36" height="36">
+            </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <form action="submit-form.php" method="post">
+        <div class="form-group">
+          <label for="name">Last name & First name:</label>
+          <input type="text" class="form-control" id="name" name="name">
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail address:</label>
+          <input type="email" class="form-control" id="email" name="email">
+        </div>
+        <div class="form-group">
+          <label for="phone"> Telephone number: </label>
+          <input type="tel" class="form-control" id="phone" name="phone">
+        </div>
+        <input type="submit" class="btn btn-primary" value="Submit">
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<footer>
+    <a href="politique_cookies.en.html"> Cookies policy </a>
+    <a href="mentions_legales.en.html"> Legal notice </a>
+    <a href="politique_confidentialite.en.html"> Privacy policy </a>
+      <p> Copyright &copy; 2024 Joryce. all rights reserved. </p>
+</footer>
+    <script>
+        function toggleDarkMode() {
+            var body = document.body;
+            body.classList.toggle("dark-mode");
+        }
+    </script>  
+  </body>
+</html>
